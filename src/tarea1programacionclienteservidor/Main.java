@@ -6,9 +6,9 @@ package tarea1programacionclienteservidor;
 
 /**
  *
- * @author josua
+ * @author Yoselyn Suarez Molina
  */
-public class Tarea1ProgramacionClienteServidor {
+public class Main {
 
     /**
      * @param args the command line arguments
