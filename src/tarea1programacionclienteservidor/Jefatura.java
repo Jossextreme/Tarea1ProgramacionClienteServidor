@@ -33,7 +33,7 @@ public class Jefatura {
     }
     
 
-    public void setIdJefatura (String IdJefatura) { this.IdJefatura = IdJefatura;   }
+    public void setIdJefatura (String IdJefatura) { this.IdJefatura = IdJefatura; }
 
     public String getIdProfesor () { return IdJefatura;   }
 

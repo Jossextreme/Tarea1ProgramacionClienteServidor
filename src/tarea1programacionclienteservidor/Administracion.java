@@ -8,18 +8,18 @@ package tarea1programacionclienteservidor;
  *
  * @author Yoselyn Suarez
  */
-public class Administracion {
-    public class Administracion extends Jefatura {
-    private final String Sector;
-    
-    public Administracion (String Nombre, String Apellidos, int Edad, String 
-            IdProfesor, String Sector){
-        super(Nombre, Apellidos, Edad, IdProfesor);
-        this.Sector = Sector;
+public class Administracion extends Jefatura{
+    private int idAdmin;
+
+    public Administracion (int idAdmin, int id, String Nombre, int Edad) {
+        super(id, Nombre, Edad);
+        this.idAdmin = idAdmin;
     }
-    
-    
-     public void doSomething () { System.out.println("Soy Administrativo");   }
-    
-}
-}
+
+    public int getIdAdmin() {
+        return idAdmin;
+    }
+
+    public void setIdAdmin(int idAdmin) {
+        this.idAdmin = idAdmin;
+    }}

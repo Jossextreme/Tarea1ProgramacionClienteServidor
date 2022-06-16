@@ -35,5 +35,5 @@ public String getNombre () { return Nombre;  }
         this.Edad = Edad;}
 }
 
-public void doSomething () { System.out.println("Soy Persona");   }        
+      
 
